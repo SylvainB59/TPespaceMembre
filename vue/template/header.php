@@ -16,3 +16,34 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+        
+        <header>
+            <h1>MON SITE</h1>
+            <p>TP ESPACE MEMBRE</p>
+            <aside>
+
+
+                <form method="post" action=".php">
+                    <input type="text" name="pseudo" id="pseudo" placeholder="Votre pseudo">
+                    <input type="password" name="password" id="password" placeholder="mot de passe">
+                    <input type="submit">
+                </form>
+                <p>Ou <a href=".php">s'inscrire</a></p>
+
+
+                <p>Bonjour >MEMBRE<</p>
+
+                
+            </aside>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 2</a></li>
+                <li><a href="#">Menu 3</a></li>
+                <li><a href="#">Menu 4</a></li>
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Gestion</a></li>
+            </ul>
+        </nav>
